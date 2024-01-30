@@ -1,5 +1,5 @@
 {
-    "name": "hisamu/php-xbase",
+    "name": "thermitetech/php-xbase",
     "type": "library",
     "description": "A simple parser for *.dbf, *.fpt files using PHP",
     "keywords": ["dbase", "dbf", "foxpro"],
@@ -17,6 +17,10 @@
         {
             "name": "Alexander Strizhak",
             "email": "gam6itko@gmail.com"
+        },
+        {
+            "name": "Michael Pengelly",
+            "email": "mike@thermite.tech"
         }
     ],
     "require": {
