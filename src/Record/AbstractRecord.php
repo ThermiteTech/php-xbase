@@ -80,7 +80,7 @@ abstract class AbstractRecord implements RecordInterface
 
         switch ($column->type) {
             case FieldType::MEMO:
-                return $this->getMemo($column);
+                return null;
             default:
                 return $this->data[$column->name] ?? null;
         }
